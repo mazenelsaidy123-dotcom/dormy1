@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.test {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #857a55;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+nav h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.home {
+    display: flex;
+    gap: 35px;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.home a:hover {
+    color: white;
+}
+
+.link2 {
+    display: flex;
+    gap: 20px;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn1, .btn2 {
+    padding: 5px 14px;
+    border-radius: 8px 15px;
+    transition: 0.4s;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: white;
+}
+
+.about-hero {
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1505691938895-1758d7feb511");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.about-hero h2 {
+    font-size: 52px;
+}
+
+.about-hero p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333;
+    padding: 0 20px;
+}
+
+.team {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.leader {
+    margin-bottom: 60px;
+}
+
+.leader img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #857a55;
+}
+
+.leader h3 {
+    margin-top: 15px;
+    font-size: 26px;
+}
+
+.leader span {
+    color: #857a55;
+    font-size: 18px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.member:hover {
+    transform: translateY(-10px);
+}
+
+.member img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member h4 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.member span {
+    color: #857a55;
+}
+
+footer {
+    background-color: #857a55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,13 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-attachment: fixed;
+background-color: #050505;
+}
+
+img{
+width: 40%;
+height:100vh ;
+padding-left:450px ;
+}

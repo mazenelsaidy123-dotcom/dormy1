@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.test {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #857a55;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+nav h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.home {
+    display: flex;
+    gap: 30px;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.home a:hover {
+    color: white;
+}
+
+.link2 {
+    display: flex;
+    gap: 20px;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn1,
+.btn2 {
+    padding: 5px 14px;
+    border-radius: 8px 15px;
+    transition: 0.4s;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: white;
+}
+
+.services-hero {
+    height: 80vh;
+    background-image: url("https://images.unsplash.com/photo-1505691938895-1758d7feb511");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.services-cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.services-cards .card {
+    width: 18rem;
+    transition: 0.5s;
+}
+
+.services-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 260px;
+    object-fit: cover;
+}
+
+.card a {
+    background-color: #857a55;
+    border: none;
+}
+
+.card a:hover {
+    background-color: black;
+}
+
+.transport {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.transport h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.transport-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.transport-box {
+    background-color: white;
+    padding: 40px;
+    width: 300px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.transport-box:hover {
+    transform: scale(1.05);
+}
+
+.transport-box i {
+    font-size: 40px;
+    color: #857a55;
+    margin-bottom: 20px;
+}
+
+.transport-box h4 {
+    margin-bottom: 15px;
+}
+
+.transport-box a {
+    text-decoration: none;
+    color: #857a55;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #857a55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
